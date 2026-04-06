@@ -15,7 +15,7 @@ function Contact() {
   }
 
   return (
-    <section className="learn-page">
+    <section className="learn-page contact-page">
       <div className="learn-container contact-container">
         <h1 className="learn-sectionTitle">İletişim</h1>
         <p className="contact-subtitle">
