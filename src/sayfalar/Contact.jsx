@@ -55,7 +55,7 @@ function Contact() {
 
           <a
             className="contact-card"
-            href="https://github.com/fatmagulozgun"
+            href="https://github.com/fatmagulozgun?tab=repositories"
             target="_blank"
             rel="noreferrer"
           >

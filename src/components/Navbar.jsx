@@ -12,7 +12,7 @@ function Icon({ children, label }) {
 export default function Navbar() {
   const links = {
     linkedin: 'https://www.linkedin.com/in/fatmagul-ozgun',
-    github: 'https://github.com/',
+    github: 'https://github.com/fatmagulozgun?tab=repositories',
     whatsapp: 'https://wa.me/905304104763',
   }
 
