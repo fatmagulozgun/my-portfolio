@@ -33,6 +33,7 @@ function Projelerim() {
       ],
       links: [
         { label: 'Live Demo', href: 'https://sebzeci-web.vercel.app' },
+        { label: 'APK İndir', href: '/sebzeci.apk', download: true },
         { label: 'GitHub (Client)', href: 'https://github.com/fatmagulozgun/sebzeci-web' },
         { label: 'GitHub (API)', href: 'https://github.com/fatmagulozgun/sebzeci-api' },
         { label: 'GitHub (Mobile)', href: 'https://github.com/fatmagulozgun/sebzeci-mobile-app' },
@@ -304,8 +305,9 @@ function Projelerim() {
                       key={link.href}
                       className="project-link"
                       href={link.href}
-                      target="_blank"
+                      target={link.download ? '_self' : '_blank'}
                       rel="noreferrer"
+                      {...(link.download ? { download: '' } : {})}
                     >
                       {link.label}
                     </a>
