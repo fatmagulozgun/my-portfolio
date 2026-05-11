@@ -11,11 +11,33 @@ import burgerImg from '../assets/burger.png'
 import posImg from '../assets/pos.png'
 import filmImg from '../assets/film.png'
 import shopImg from '../assets/shop.png'
+import sebImg from '../assets/seb.png'
 import havaImg from '../assets/hava.png'
 import userImg from '../assets/user.png'
 
 function Projelerim() {
   const projects = [
+    {
+      title: 'Sebzeci - Web, API ve Mobil Alışveriş Ekosistemi',
+      imageSrc: sebImg,
+      imageAlt: 'Sebzeci sebze ve meyve alışveriş ekosistemi',
+      description:
+        'Sebze ve meyve sipariş süreçlerini uçtan uca yöneten full stack bir proje. Web arayüzü, REST API altyapısı ve mobil uygulama ile kullanıcı dostu, ölçeklenebilir bir alışveriş deneyimi sunar.',
+      tech: ['Web', 'REST API', 'Mobil', 'Full Stack'],
+      bullets: [
+        'Ürün listeleme ve detay görüntüleme',
+        'Kategori bazlı gezinme ve filtreleme',
+        'API destekli dinamik veri yönetimi',
+        'Web + mobil platform uyumlu mimari',
+        'Modern, performans odaklı ve sürdürülebilir yapı',
+      ],
+      links: [
+        { label: 'Live Demo', href: 'https://sebzeci-web.vercel.app' },
+        { label: 'GitHub (Client)', href: 'https://github.com/fatmagulozgun/sebzeci-web' },
+        { label: 'GitHub (API)', href: 'https://github.com/fatmagulozgun/sebzeci-api' },
+        { label: 'GitHub (Mobile)', href: 'https://github.com/fatmagulozgun/sebzeci-mobile-app' },
+      ],
+    },
     {
       title: 'MERN Stack Full Stack Not ve Üretkenlik Uygulaması',
       imageSrc: notImg,
